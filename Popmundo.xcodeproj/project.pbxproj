@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		844D49EE29A7409300121E71 /* PopmundoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844D49ED29A7409300121E71 /* PopmundoApp.swift */; };
+		844D49F029A7409300121E71 /* HomeUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844D49EF29A7409300121E71 /* HomeUIView.swift */; };
+		844D49F229A7409400121E71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 844D49F129A7409400121E71 /* Assets.xcassets */; };
+		844D49F529A7409400121E71 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 844D49F429A7409400121E71 /* Preview Assets.xcassets */; };
+		844D49FF29A7409500121E71 /* PopmundoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844D49FE29A7409500121E71 /* PopmundoTests.swift */; };
+		844D4A0929A7409500121E71 /* PopmundoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844D4A0829A7409500121E71 /* PopmundoUITests.swift */; };
+		844D4A0B29A7409500121E71 /* PopmundoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844D4A0A29A7409500121E71 /* PopmundoUITestsLaunchTests.swift */; };
+		844D4A1829A74D4200121E71 /* MainUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844D4A1729A74D4200121E71 /* MainUIView.swift */; };
+		844D4A1A29A7504200121E71 /* ArtistUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844D4A1929A7504200121E71 /* ArtistUIView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		844D49FB29A7409500121E71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 844D49E229A7409300121E71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 844D49E929A7409300121E71;
+			remoteInfo = Popmundo;
+		};
+		844D4A0529A7409500121E71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 844D49E229A7409300121E71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 844D49E929A7409300121E71;
+			remoteInfo = Popmundo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		844D49EA29A7409300121E71 /* Popmundo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Popmundo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		844D49ED29A7409300121E71 /* PopmundoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopmundoApp.swift; sourceTree = "<group>"; };
+		844D49EF29A7409300121E71 /* HomeUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUIView.swift; sourceTree = "<group>"; };
+		844D49F129A7409400121E71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		844D49F429A7409400121E71 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		844D49FA29A7409500121E71 /* PopmundoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopmundoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		844D49FE29A7409500121E71 /* PopmundoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopmundoTests.swift; sourceTree = "<group>"; };
+		844D4A0429A7409500121E71 /* PopmundoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopmundoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		844D4A0829A7409500121E71 /* PopmundoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopmundoUITests.swift; sourceTree = "<group>"; };
+		844D4A0A29A7409500121E71 /* PopmundoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopmundoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		844D4A1729A74D4200121E71 /* MainUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainUIView.swift; sourceTree = "<group>"; };
+		844D4A1929A7504200121E71 /* ArtistUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistUIView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		844D49E729A7409300121E71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844D49F729A7409500121E71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844D4A0129A7409500121E71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		844D49E129A7409300121E71 = {
+			isa = PBXGroup;
+			children = (
+				844D49EC29A7409300121E71 /* Popmundo */,
+				844D49FD29A7409500121E71 /* PopmundoTests */,
+				844D4A0729A7409500121E71 /* PopmundoUITests */,
+				844D49EB29A7409300121E71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		844D49EB29A7409300121E71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				844D49EA29A7409300121E71 /* Popmundo.app */,
+				844D49FA29A7409500121E71 /* PopmundoTests.xctest */,
+				844D4A0429A7409500121E71 /* PopmundoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		844D49EC29A7409300121E71 /* Popmundo */ = {
+			isa = PBXGroup;
+			children = (
+				844D49ED29A7409300121E71 /* PopmundoApp.swift */,
+				844D49EF29A7409300121E71 /* HomeUIView.swift */,
+				844D4A1929A7504200121E71 /* ArtistUIView.swift */,
+				844D4A1729A74D4200121E71 /* MainUIView.swift */,
+				844D49F129A7409400121E71 /* Assets.xcassets */,
+				844D49F329A7409400121E71 /* Preview Content */,
+			);
+			path = Popmundo;
+			sourceTree = "<group>";
+		};
+		844D49F329A7409400121E71 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				844D49F429A7409400121E71 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		844D49FD29A7409500121E71 /* PopmundoTests */ = {
+			isa = PBXGroup;
+			children = (
+				844D49FE29A7409500121E71 /* PopmundoTests.swift */,
+			);
+			path = PopmundoTests;
+			sourceTree = "<group>";
+		};
+		844D4A0729A7409500121E71 /* PopmundoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				844D4A0829A7409500121E71 /* PopmundoUITests.swift */,
+				844D4A0A29A7409500121E71 /* PopmundoUITestsLaunchTests.swift */,
+			);
+			path = PopmundoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		844D49E929A7409300121E71 /* Popmundo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 844D4A0E29A7409500121E71 /* Build configuration list for PBXNativeTarget "Popmundo" */;
+			buildPhases = (
+				844D49E629A7409300121E71 /* Sources */,
+				844D49E729A7409300121E71 /* Frameworks */,
+				844D49E829A7409300121E71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Popmundo;
+			productName = Popmundo;
+			productReference = 844D49EA29A7409300121E71 /* Popmundo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		844D49F929A7409500121E71 /* PopmundoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 844D4A1129A7409500121E71 /* Build configuration list for PBXNativeTarget "PopmundoTests" */;
+			buildPhases = (
+				844D49F629A7409500121E71 /* Sources */,
+				844D49F729A7409500121E71 /* Frameworks */,
+				844D49F829A7409500121E71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				844D49FC29A7409500121E71 /* PBXTargetDependency */,
+			);
+			name = PopmundoTests;
+			productName = PopmundoTests;
+			productReference = 844D49FA29A7409500121E71 /* PopmundoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		844D4A0329A7409500121E71 /* PopmundoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 844D4A1429A7409500121E71 /* Build configuration list for PBXNativeTarget "PopmundoUITests" */;
+			buildPhases = (
+				844D4A0029A7409500121E71 /* Sources */,
+				844D4A0129A7409500121E71 /* Frameworks */,
+				844D4A0229A7409500121E71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				844D4A0629A7409500121E71 /* PBXTargetDependency */,
+			);
+			name = PopmundoUITests;
+			productName = PopmundoUITests;
+			productReference = 844D4A0429A7409500121E71 /* PopmundoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		844D49E229A7409300121E71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					844D49E929A7409300121E71 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					844D49F929A7409500121E71 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 844D49E929A7409300121E71;
+					};
+					844D4A0329A7409500121E71 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 844D49E929A7409300121E71;
+					};
+				};
+			};
+			buildConfigurationList = 844D49E529A7409300121E71 /* Build configuration list for PBXProject "Popmundo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 844D49E129A7409300121E71;
+			productRefGroup = 844D49EB29A7409300121E71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				844D49E929A7409300121E71 /* Popmundo */,
+				844D49F929A7409500121E71 /* PopmundoTests */,
+				844D4A0329A7409500121E71 /* PopmundoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		844D49E829A7409300121E71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844D49F529A7409400121E71 /* Preview Assets.xcassets in Resources */,
+				844D49F229A7409400121E71 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844D49F829A7409500121E71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844D4A0229A7409500121E71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		844D49E629A7409300121E71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844D49F029A7409300121E71 /* HomeUIView.swift in Sources */,
+				844D4A1A29A7504200121E71 /* ArtistUIView.swift in Sources */,
+				844D49EE29A7409300121E71 /* PopmundoApp.swift in Sources */,
+				844D4A1829A74D4200121E71 /* MainUIView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844D49F629A7409500121E71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844D49FF29A7409500121E71 /* PopmundoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844D4A0029A7409500121E71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844D4A0B29A7409500121E71 /* PopmundoUITestsLaunchTests.swift in Sources */,
+				844D4A0929A7409500121E71 /* PopmundoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		844D49FC29A7409500121E71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 844D49E929A7409300121E71 /* Popmundo */;
+			targetProxy = 844D49FB29A7409500121E71 /* PBXContainerItemProxy */;
+		};
+		844D4A0629A7409500121E71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 844D49E929A7409300121E71 /* Popmundo */;
+			targetProxy = 844D4A0529A7409500121E71 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		844D4A0C29A7409500121E71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		844D4A0D29A7409500121E71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		844D4A0F29A7409500121E71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Popmundo/Preview Content\"";
+				DEVELOPMENT_TEAM = 98V2J4P2QG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Popmundo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		844D4A1029A7409500121E71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Popmundo/Preview Content\"";
+				DEVELOPMENT_TEAM = 98V2J4P2QG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Popmundo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		844D4A1229A7409500121E71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 98V2J4P2QG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rempeople.PopmundoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Popmundo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Popmundo";
+			};
+			name = Debug;
+		};
+		844D4A1329A7409500121E71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 98V2J4P2QG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rempeople.PopmundoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Popmundo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Popmundo";
+			};
+			name = Release;
+		};
+		844D4A1529A7409500121E71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 98V2J4P2QG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rempeople.PopmundoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Popmundo;
+			};
+			name = Debug;
+		};
+		844D4A1629A7409500121E71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 98V2J4P2QG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rempeople.PopmundoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Popmundo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		844D49E529A7409300121E71 /* Build configuration list for PBXProject "Popmundo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844D4A0C29A7409500121E71 /* Debug */,
+				844D4A0D29A7409500121E71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		844D4A0E29A7409500121E71 /* Build configuration list for PBXNativeTarget "Popmundo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844D4A0F29A7409500121E71 /* Debug */,
+				844D4A1029A7409500121E71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		844D4A1129A7409500121E71 /* Build configuration list for PBXNativeTarget "PopmundoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844D4A1229A7409500121E71 /* Debug */,
+				844D4A1329A7409500121E71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		844D4A1429A7409500121E71 /* Build configuration list for PBXNativeTarget "PopmundoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844D4A1529A7409500121E71 /* Debug */,
+				844D4A1629A7409500121E71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 844D49E229A7409300121E71 /* Project object */;
+}
