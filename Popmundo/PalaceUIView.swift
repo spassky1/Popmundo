@@ -1,13 +1,13 @@
 //
-//  AtistUIView.swift
+//  PalaceUIView.swift
 //  Popmundo
 //
-//  Created by İbrahım Arda Arslan on 23.02.2023.
+//  Created by İbrahım Arda Arslan on 26.02.2023.
 //
 
 import SwiftUI
 
-struct ArtistUIView: View {
+struct PalaceUIView: View {
     //@Binding var tabBarHeight: CGFloat
     @State private var isPickerVisible = false
     @State private var selectedOption = 0
@@ -16,9 +16,9 @@ struct ArtistUIView: View {
         ScrollView {
             /// PROFILE
             VStack() {
-                Image("profilPhoto")
+                Image("housePhoto")
                     .resizable()
-                    .frame(width: 200, height: 260)
+                    .frame(width: 230, height: 260)
                     .cornerRadius(16)
                     .padding()
                     .onTapGesture {
@@ -29,19 +29,7 @@ struct ArtistUIView: View {
                     .font(.system(size: 20))
                     .padding()
                     .frame(maxWidth: .infinity, alignment: .leading)
-                Text("Group :")
-                    .font(.system(size: 20))
-                    .padding()
-                    .frame(maxWidth: .infinity, alignment: .leading)
-                Text("Tarz :")
-                    .font(.system(size: 20))
-                    .padding()
-                    .frame(maxWidth: .infinity, alignment: .leading)
-                Text("Instrument :")
-                    .font(.system(size: 20))
-                    .padding()
-                    .frame(maxWidth: .infinity, alignment: .leading)
-                Text("Achievements :")
+                Text("Eşyalar :")
                     .font(.system(size: 20))
                     .padding()
                     .frame(maxWidth: .infinity, alignment: .leading)
@@ -55,6 +43,15 @@ struct ArtistUIView: View {
                         }
                     }
                 }
+
+                Text("Kalite :")
+                    .font(.system(size: 20))
+                    .padding()
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                Text("Mekandakiler :")
+                    .font(.system(size: 20))
+                    .padding()
+                    .frame(maxWidth: .infinity, alignment: .leading)
 
                 Spacer()
             }
@@ -80,5 +77,11 @@ struct ArtistUIView: View {
 
         }
 
+    }
+}
+
+struct PalaceUIView_Previews: PreviewProvider {
+    static var previews: some View {
+        PalaceUIView()
     }
 }

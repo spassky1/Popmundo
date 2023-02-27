@@ -20,7 +20,7 @@ struct MainUIView: View {
                 }
                 .tag(0)
 
-            ArtistUIView(tabBarHeight: $tabBarHeight)
+            ArtistUIView()
                 .tabItem {
                     Image(systemName: "person")
                     Text("Artist")

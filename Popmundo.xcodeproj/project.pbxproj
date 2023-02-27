@@ -16,6 +16,7 @@
 		844D4A0B29A7409500121E71 /* PopmundoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844D4A0A29A7409500121E71 /* PopmundoUITestsLaunchTests.swift */; };
 		844D4A1829A74D4200121E71 /* MainUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844D4A1729A74D4200121E71 /* MainUIView.swift */; };
 		844D4A1A29A7504200121E71 /* ArtistUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844D4A1929A7504200121E71 /* ArtistUIView.swift */; };
+		8495FBC629ABDC0600094DFF /* PalaceUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8495FBC529ABDC0600094DFF /* PalaceUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		844D4A0A29A7409500121E71 /* PopmundoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopmundoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		844D4A1729A74D4200121E71 /* MainUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainUIView.swift; sourceTree = "<group>"; };
 		844D4A1929A7504200121E71 /* ArtistUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistUIView.swift; sourceTree = "<group>"; };
+		8495FBC529ABDC0600094DFF /* PalaceUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalaceUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				844D49ED29A7409300121E71 /* PopmundoApp.swift */,
 				844D49EF29A7409300121E71 /* HomeUIView.swift */,
 				844D4A1929A7504200121E71 /* ArtistUIView.swift */,
+				8495FBC529ABDC0600094DFF /* PalaceUIView.swift */,
 				844D4A1729A74D4200121E71 /* MainUIView.swift */,
 				844D49F129A7409400121E71 /* Assets.xcassets */,
 				844D49F329A7409400121E71 /* Preview Content */,
@@ -263,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8495FBC629ABDC0600094DFF /* PalaceUIView.swift in Sources */,
 				844D49F029A7409300121E71 /* HomeUIView.swift in Sources */,
 				844D4A1A29A7504200121E71 /* ArtistUIView.swift in Sources */,
 				844D49EE29A7409300121E71 /* PopmundoApp.swift in Sources */,
